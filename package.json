@@ -1,0 +1,48 @@
+{
+  "name": "react-onscroll",
+  "version": "1.0.0",
+  "description": "ScrollEvent",
+  "main": "lib/ScrollEvent.js",
+  "author": "Ben Gardner",
+  "homepage": "https://github.com/focuswish/react-onscroll",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focuswish/react-onscroll.git"
+  },
+  "bugs": {
+    "url": "https://github.com/focuswish/react-onscroll/issues"
+  },
+  "dependencies": {
+    "classnames": "^2.1.2",
+    "react": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.15.0",
+    "eslint-plugin-react": "^6.9.0",
+    "gulp": "^3.9.0",
+    "react": "^15.4.2",
+    "react-component-gulp-tasks": "^0.7.6",
+    "react-dom": "^15.4.2"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0"
+  },
+  "browserify-shim": {
+    "react": "global:React"
+  },
+  "scripts": {
+    "build": "gulp clean && NODE_ENV=production gulp build",
+    "examples": "gulp dev:server",
+    "lint": "eslint ./; true",
+    "publish:site": "NODE_ENV=production gulp publish:examples",
+    "release": "NODE_ENV=production gulp release",
+    "start": "gulp dev",
+    "test": "echo \"no tests yet\" && exit 0",
+    "watch": "gulp watch:lib"
+  },
+  "keywords": [
+    "react",
+    "react-component"
+  ]
+}
