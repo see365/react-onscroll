@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class ScrollEvent extends React.Component {
 	constructor(props) {
@@ -29,5 +30,5 @@ class ScrollEvent extends React.Component {
 export default ScrollEvent;
 
 ScrollEvent.Proptypes = {
-	handleScrollCallback: React.PropTypes.func
+	handleScrollCallback: PropTypes.func
 }
