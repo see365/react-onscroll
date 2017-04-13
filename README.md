@@ -33,7 +33,7 @@ Use this component by passing a function to <ScrollEvent /> via props.
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ScrollEvent from '../src/ScrollEvent';
+import ScrollEvent from 'react-onscroll';
 
 class App extends React.Component {
 	constructor(props) {
