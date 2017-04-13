@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ScrollEvent from '../src/ScrollEvent';
+import ScrollEvent from '../../src/ScrollEvent';
 
 class App extends React.Component {
 	constructor(props) {

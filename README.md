@@ -65,3 +65,6 @@ ReactDOM.render(<App />, document.getElementById('app'));
 
 To build, watch and serve the examples (which will also watch the component source), run `npm start`. If you just want to watch changes to `src` and rebuild `lib`, run `npm run watch` (this is useful if you are working with `npm link`).
 
+## Author
+
+[Ben Gardner](http://www.brainprotips.com)
