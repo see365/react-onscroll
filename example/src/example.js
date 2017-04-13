@@ -10,7 +10,7 @@ class App extends React.Component {
 	}
 
 	handleScrollCallback() {
-		console.log("A scroll event occurred!");
+		console.log('A scroll event occurred!');
 	}
 	render() {
 		return(

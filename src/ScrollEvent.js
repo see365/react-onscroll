@@ -31,4 +31,4 @@ export default ScrollEvent;
 
 ScrollEvent.Proptypes = {
 	handleScrollCallback: PropTypes.func
-}
+};
