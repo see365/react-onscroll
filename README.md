@@ -1,5 +1,7 @@
 # ScrollEvent
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/focuswish/react-onscroll.svg)](https://greenkeeper.io/)
+
 A simple component that calls a function when an onScroll event occurs.
 
 ## Demo & Examples
